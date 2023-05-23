@@ -87,18 +87,33 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   .content-wrapper {
+    width: 90%;
+    margin: 50px 0;
+   }
    /*-------Base Header-Footer Styles-------*/
 
-   header (
+   header {
     display: flex;
     justify-content: center;
-   )
+    padding: 15px 0;
+}
 
    header .content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
+   }
+
+   .header-divider {
+    width: 100%;
+    margin: 10px 0 20px 0;
+   }
+
+   header nav {
+    width: 60%;
    }
 
    header nav ul {
@@ -113,6 +128,15 @@ textarea {
     text-align: center;
    }
 
+   footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+   }
+
+   footer .contact {
+    margin-bottom: 50px 0;
+   }
+
    footer .social-icons {
     display: flex;
     justify-content: space-around;
@@ -123,6 +147,14 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
+   }
+
+   footer p {
+    margin: 0;
+   }
+
+   footer .copyright {
+    margin: 20px 0;
    }
 
    /*-------------Mobile Styles-Homepage-----------*/
@@ -141,9 +173,21 @@ textarea {
   }
   /*---Features---*/
 
-  .feautures {
+  .features {
     display: flex;
     justify-content: center;
+  }
+
+  .features article {
+    width: 63%;
+  }
+
+  .features h2 {
+    margin-bottom: 60px;
+  }
+
+  .features p {
+    margin: 0;
   }
 
   .features .features-items {
@@ -160,6 +204,16 @@ textarea {
     justify-content: center;
   }
 
+  .reviews h2 {
+    margin-bottom: 40px;
+  }
+
+  .reviews h3 {
+    width: 55%;
+    margin: 20px 0;
+  }
+
+
   /* ==========================================================================
    About Page
    ========================================================================== */
@@ -171,6 +225,10 @@ textarea {
   .contact-section {
     display: flex;
     justify-content: center;
+  }
+
+  .contact-content p {
+    margin: 0;
   }
 
   /* ==========================================================================
@@ -187,6 +245,15 @@ textarea {
       justify-content: center;
       align-items: center;
       flex-flow: row wrap;
+      margin: 50px 0 0 0;
+    }
+
+    .faq h2 {
+      margin-bottom: 40px;
+    }
+
+    ,faq-content {
+      margin-bottom: 50px;
     }
 
 /* ==========================================================================
