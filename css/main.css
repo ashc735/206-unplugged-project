@@ -374,7 +374,6 @@
       background-color: #2a423a;
       display: flex;
       justify-content: center;
-      flex-flow: column wrap;
     }
     
     .contact-content p {
@@ -612,7 +611,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px
+    padding-top: 20px;
   }
   
   .mission-content p {
@@ -627,28 +626,35 @@
     width: 80%;
   }
   
-  
-  
   .contact-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
   }
   
-  
+  .contact-content h4 {
+    font-size: 1.5em;
+  }
    /*============================== FAQ Page ==================================*/
   
    .faq .content-wrapper {
     justify-content: space-between;
-   }
-   .faq-content {
-    flex-basis: 45%;
-   }
-  
-   .faq h2 {
-    width: 100%;
-   }
   }
+
+  .faq-content {
+    flex-basis: 45%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+
+  .faq h4,
+  .faq p {
+    font-size: .875em;
+    line-height: 1.125;
+  }
+}
   
   @media only screen and (min-width:1200px) {
     /*Desktop styles here*/
